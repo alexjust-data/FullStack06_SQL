@@ -11,38 +11,38 @@ Estás interesado en construir una página web que actúe como una base de datos
 
 1. Investigación y Planeación  
 1.1. Investigar APIs y fuentes de datos de la SEC EDGAR  
-1.2. Definir las características y el alcance de la aplicación
-1.3. Seleccionar tecnologías y herramientas (backend, frontend, bases de datos, etc.)
-1.4. Diseñar la arquitectura del sistema
+1.2. Definir las características y el alcance de la aplicación  
+1.3. Seleccionar tecnologías y herramientas (backend, frontend, bases de datos, etc.)  
+1.4. Diseñar la arquitectura del sistema  
+  
+2. Diseño de Base de Datos  
+2.1. Diseñar el esquema de la base de datos  
+2.2. Crear tablas para Empresas, Estados Financieros, Usuarios, etc.  
+2.3. Configurar índices y optimizar rendimiento  
 
-2. Diseño de Base de Datos
-2.1. Diseñar el esquema de la base de datos
-2.2. Crear tablas para Empresas, Estados Financieros, Usuarios, etc.
-2.3. Configurar índices y optimizar rendimiento
+3. Backend: Tubería de Datos (Data Pipeline)  
+3.1. Crear script para acceder al API de SEC EDGAR  
+3.2. Diseñar y construir ETL para procesar y almacenar datos  
+3.3. Implementar trabajos de cron para actualizar la base de datos periódicamente  
 
-3. Backend: Tubería de Datos (Data Pipeline)
-3.1. Crear script para acceder al API de SEC EDGAR
-3.2. Diseñar y construir ETL para procesar y almacenar datos
-3.3. Implementar trabajos de cron para actualizar la base de datos periódicamente
+4. Backend: API  
+4.1. Crear endpoints para acceder a los datos de las empresas  
+4.2. Implementar autenticación y autorización  
+4.3. Implementar lógica para búsqueda y filtrado  
+4.4. Desarrollar pruebas automatizadas para la API  
 
-4. Backend: API
-4.1. Crear endpoints para acceder a los datos de las empresas
-4.2. Implementar autenticación y autorización
-4.3. Implementar lógica para búsqueda y filtrado
-4.4. Desarrollar pruebas automatizadas para la API
-
-5. Frontend: Interfaz Web
-5.1. Diseñar la UI/UX
-5.2. Implementar vistas para búsqueda, perfiles de empresas, estados financieros, etc.
-5.3. Conectar el frontend con el backend a través de la API
-
-6. Seguridad
-6.1. Implementar HTTPS
-6.2. Evaluar y fortalecer la seguridad de la API
-6.3. Implementar medidas anti-scraping
-
-7. Despliegue
-7.1. Configurar servidores y bases de datos en el entorno de producción
+5. Frontend: Interfaz Web  
+5.1. Diseñar la UI/UX  
+5.2. Implementar vistas para búsqueda, perfiles de empresas, estados financieros, etc.  
+5.3. Conectar el frontend con el backend a través de la API  
+  
+6. Seguridad  
+6.1. Implementar HTTPS  
+6.2. Evaluar y fortalecer la seguridad de la API  
+6.3. Implementar medidas anti-scraping  
+  
+7. Despliegue  
+7.1. Configurar servidores y bases de datos en el entorno de producción  
 7.2. Automatizar el proceso de despliegue
 7.3. Establecer monitoreo y alertas
 
