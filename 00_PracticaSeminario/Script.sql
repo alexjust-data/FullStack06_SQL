@@ -276,7 +276,7 @@ SELECT co.modelo, ma.id_marca
 FROM (
     SELECT DISTINCT modelo, marca FROM coches
 ) co
-INNER JOIN marca ma on ma.nombre = co.marca
+INNER JOIN marca ma on ma.nombre = co.marca;
 
 -- COMPAÑÍA ASEGURADORA
 
